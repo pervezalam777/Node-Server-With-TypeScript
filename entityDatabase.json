@@ -1,0 +1,60 @@
+{
+    "people": {
+        "a53b03a0-f99b-4577-923d-34d4dfdef004": {
+            "id": "a53b03a0-f99b-4577-923d-34d4dfdef004",
+            "firstName": "Pervez",
+            "lastName": "Alam",
+            "email": "pervez@test.com",
+            "department": "TECH",
+            "mobileNumber": "989343430",
+            "age": 38
+        },
+        "b5841dc5-b05d-4775-a2bb-fe975dec7266": {
+            "id": "b5841dc5-b05d-4775-a2bb-fe975dec7266",
+            "firstName": "Pervez",
+            "lastName": "Alam",
+            "email": "pervez@test.com",
+            "department": "TECH",
+            "mobileNumber": "989343430",
+            "age": 38
+        },
+        "00455de8-edf0-462a-9bea-b82fa9f35d99": {
+            "id": "00455de8-edf0-462a-9bea-b82fa9f35d99",
+            "firstName": "vijay",
+            "lastName": "verdhan",
+            "email": "vijay@test.com",
+            "department": "TECH",
+            "mobileNumber": "989343430",
+            "age": 38
+        }
+    },
+    "users": {
+        "alam": {
+            "password": "password",
+            "permissions": {
+                "people": [
+                    "reader",
+                    "writer"
+                ]
+            }
+        },
+        "vijay": {
+            "password": "password",
+            "permissions": {
+                "people": [
+                    "reader"
+                ]
+            }
+        },
+        "pervez": {
+            "password": "password",
+            "permissions": {
+                "people": [
+                    "reader",
+                    "writer",
+                    "deleter"
+                ]
+            }
+        }
+    }
+}
