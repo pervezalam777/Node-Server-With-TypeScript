@@ -21,7 +21,10 @@ $ git clone https://github.com/pervezalam777/Node-Server-With-TypeScript.git
 $ npm install
 ``` 
 
-4) press F5 for debugging or goto "Run" menu and click on "Start Debugging"
+4) if your using VSCode then press F5 for debugging or goto "Run" menu and click on "Start Debugging" or run following command
+```bash
+$ npm run dev
+```
 
 
 ### Reference
